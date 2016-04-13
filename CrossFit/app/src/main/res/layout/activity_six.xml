@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.crossfit.six">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF9C4"
+            android:paddingBottom="5dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:text="Instructions:"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF9C4"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="1 set - is execution of any exercise for 20 sec.\n1 pare = 2 sets = 40 sec - is execution of two exercises on the same muscle groups. The first exercise is dynamic and the second exercise is static. For example:\nA1 and A2 - from Abdominal Exercises \nP1 and P2 - from Push Ups Exercises\nQ3 and Q2 - from Squats Exercises"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:paddingBottom="5dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="Do you have 20 min for exercises?"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <CheckBox
+                    android:id="@+id/yes_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="yes"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+
+                <Button
+                    android:id="@+id/Advice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/oval"
+                    android:onClick="onMyButtonClick"
+                    android:padding="7dp"
+                    android:text="Advice"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:paddingBottom="5dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="5dp"
+            android:text="Program 1"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CCFF90"
+            android:paddingLeft="50dp"
+            android:text="3 pares of Abdominal Exercises \n3 pares of Push Ups Exercises \n3 pares of Side Plank Exercises \n3 pares of Hyperextension Exercises \n3 pares of Squats Exercises "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:paddingLeft="50dp"
+            android:text="Time - 10 min"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CCFF90"
+            android:paddingLeft="50dp"
+            android:text="2 pares of Abdominal Exercises \n2 pares of Push Ups Exercises \n2 pares of Side Plank Exercises \n2 pares of Hyperextension Exercises \n2 pares of Squats Exercises "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:paddingLeft="50dp"
+            android:text="Time - 6 min 40 sec"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CCFF90"
+            android:paddingLeft="50dp"
+            android:text="1 pares of Abdominal Exercises \n1 pares of Push Ups Exercises \n1 pares of Side Plank Exercises \n1 pares of Hyperextension Exercises \n1 pares of Squats Exercises "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:paddingLeft="50dp"
+            android:text="Time - 3 min 20 sec"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00BCD4"
+            android:paddingBottom="5dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="5dp"
+            android:text="Total time - 20 min"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF9C4"
+            android:paddingLeft="50dp"
+            android:paddingTop="20dp"
+            android:text=".\n.\n. "
+            android:textColor="#FFF9C4"
+            android:textSize="5sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B3E5FC"
+            android:paddingBottom="5dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="5dp"
+            android:text="Program 2"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E1F5FE"
+            android:paddingLeft="50dp"
+            android:text="3 pares of Abdominal Exercises \n3 pares of Push Ups Exercises \n3 pares of Side Plank Exercises \n3 pares of Hyperextension Exercises \n3 pares of Squats Exercises "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00BCD4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="5dp"
+            android:text="Total time - 10 min"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+

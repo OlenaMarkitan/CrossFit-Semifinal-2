@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.crossfit.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pppp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <Button
+            android:id="@+id/Tabata"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:background="@drawable/green"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:linksClickable="true"
+            android:onClick="goToTabata"
+            android:text="Timer"
+
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/Program"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/purpleoval"
+            android:onClick="onButtonClickProgram"
+            android:text="program"
+            android:textAllCaps="true" />
+
+        <ImageButton
+            android:id="@+id/Button1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/greenoval"
+            android:onClick="onButtonClick1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="7dp"
+            android:src="@drawable/pre">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/Button2"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/oval"
+            android:onClick="onButtonClick2"
+            android:paddingBottom="7dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="7dp"
+            android:src="@drawable/push">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/Button3"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/yellowoval"
+            android:onClick="onButtonClick3"
+            android:paddingBottom="7dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="7dp"
+            android:src="@drawable/pla">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/Button4"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/pinkoval"
+            android:onClick="onButtonClick4"
+            android:paddingBottom="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="7dp"
+            android:src="@drawable/hyp">
+
+        </ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/Button5"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/orangeoval"
+            android:onClick="onButtonClick5"
+            android:paddingBottom="7dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="7dp"
+            android:src="@drawable/squ">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
